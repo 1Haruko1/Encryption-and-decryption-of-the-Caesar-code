@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.4">
   <diagram name="Страница — 1" id="i6U5Zhl4WnuqZG08Giuk">
-    <mxGraphModel dx="719" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2605" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,7 +190,12 @@
         <mxCell id="CR9T_Th7rdDnl8kwBN-4-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CR9T_Th7rdDnl8kwBN-4-60" target="CR9T_Th7rdDnl8kwBN-4-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CR9T_Th7rdDnl8kwBN-4-60" value="Проверка на наличие символа в списки с алфавитом&lt;div style=&quot;font-size: 10px;&quot;&gt;и добавление символа в результат&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="CR9T_Th7rdDnl8kwBN-4-84" value="Цикл окончен&lt;br&gt;Получение&lt;div&gt;полноценного&lt;/div&gt;&lt;div&gt;результата&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CR9T_Th7rdDnl8kwBN-4-80">
+          <mxGeometry x="-0.0621" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CR9T_Th7rdDnl8kwBN-4-60" value="Проверка на наличие символа в списке с алфавитом&lt;div style=&quot;font-size: 10px;&quot;&gt;и добавление символа в результат&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1410" y="1073" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CR9T_Th7rdDnl8kwBN-4-61" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -223,6 +228,11 @@
         <mxCell id="CR9T_Th7rdDnl8kwBN-4-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.013;entryY=0.49;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CR9T_Th7rdDnl8kwBN-4-69" target="CR9T_Th7rdDnl8kwBN-4-76">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1950" y="1224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CR9T_Th7rdDnl8kwBN-4-85" value="Результат" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CR9T_Th7rdDnl8kwBN-4-75">
+          <mxGeometry x="-0.1715" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CR9T_Th7rdDnl8kwBN-4-69" value="Отображение результата" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
