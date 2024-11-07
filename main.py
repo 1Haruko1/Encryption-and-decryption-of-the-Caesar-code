@@ -47,3 +47,16 @@ def ceasar_code(text, shift, mode):
                 else:
                     result += symbol
     return result
+
+
+print('ЧТОБЫ ЗАВЕРШИТЬ ПРОГРАММУ, НАПИШИТЕ "end"')
+while True:
+    user_input = input('ВВЕДИТЕ ТЕКСТ, ОТСТУП И РЕЖИМ (encode/decode) ЧЕРЕЗ СИМВОЛ "/": ')
+    try:
+        if user_input == 'end':
+            break
+        else:
+            text, shift, mode = user_input.split('/')
+            print(ceasar_code(text, int(shift), mode))
+    except ValueError:
+        print('НЕПРАВИЛЬНЫЙ ВВОД ДАННЫЙ, ПОПРОБУЙТЕ ЕЩЕ РАЗ')
