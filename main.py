@@ -47,10 +47,3 @@ def ceasar_code(text, shift, mode):
                 else:
                     result += symbol
     return result
-
-
-encode = ceasar_code('Привет, World1234$$%', 2, 'encode') # return --> Сткджф, Yqtnf1234$$% 
-decode = ceasar_code(encode, 2, 'decode') # return --> Привет, World1234$$%
-
-print(f'ШИФРОВКА: {encode}')
-print(f'ДЕШИФРОВКА: {decode}')
